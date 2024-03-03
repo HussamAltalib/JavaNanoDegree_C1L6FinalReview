@@ -8,13 +8,13 @@ import org.openqa.selenium.support.PageFactory;
 
 public class LoginPage {
 
-    @FindBy(css="#inputUsername")
+    @FindBy(id = "inputUsername")
     private WebElement usernameField;
 
-    @FindBy(css="#inputPassword")
+    @FindBy(id = "inputPassword")
     private WebElement passwordField;
 
-    @FindBy(css="#submit-button")
+    @FindBy(id = "submit-button")
     private WebElement submitButton;
 
     public LoginPage(WebDriver webDriver) {
